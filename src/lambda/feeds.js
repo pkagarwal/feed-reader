@@ -1,4 +1,4 @@
-const Parser = require("rss-parser")
+imort Parser from "rss-parser"
 
 
 export function handler(event, context, callback) {
