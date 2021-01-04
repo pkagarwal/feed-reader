@@ -25,7 +25,7 @@ export default {
     props: ['articles'],
     methods: {
         selectArticle(article) {
-            this.$emit(onSelectArticle, article)
+            this.$emit('onSelectArticle', article)
         }
     }
 }
